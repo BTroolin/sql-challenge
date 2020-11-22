@@ -1,0 +1,34 @@
+departments
+-----------
+dept_no string
+dept_name string
+
+department_employees
+-----------
+emp_no int
+dept_no string
+
+department_managers
+-----------
+dept_no string
+emp_no int
+
+employees
+---------
+emp_no int
+emp_title_id string
+birth_date date
+first_name string
+last_name string
+sex string
+hire_date date
+
+salaries
+-----------
+emp_no int
+salary int
+
+titles
+-----
+title_id string
+title string
